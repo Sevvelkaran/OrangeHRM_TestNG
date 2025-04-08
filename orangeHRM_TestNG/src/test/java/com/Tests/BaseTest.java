@@ -1,5 +1,9 @@
 package com.Tests;
 
-public class BaseTest {
+import org.testng.annotations.Test;
 
+public class BaseTest {
+  @Test
+  public void f() {
+  }
 }

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 22 22:13:23 IST 2025</td>
+<td>Started on:</td><td>Wed Apr 23 19:55:50 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>100 seconds (100518 ms)</td>
+<tr><td>Total time:</td><td>332 seconds (332609 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,53 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Tests.DashboardTest.QuickLaunch_Assert()'><b>QuickLaunch_Assert</b><br>Test class: Tests.DashboardTest</td>
-<td><div><pre>java.lang.AssertionError: Assign Leave expected:&lt;Assign Leave&gt; but was:&lt;Quick Launch Assertion Failed for: Assign Leave&gt;
-	at Tests.DashboardTest.QuickLaunch_Assert(DashboardTest.java:99)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1905114489", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1905114489'><pre>java.lang.AssertionError: Assign Leave expected:&lt;Assign Leave&gt; but was:&lt;Quick Launch Assertion Failed for: Assign Leave&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-	at Tests.DashboardTest.QuickLaunch_Assert(DashboardTest.java:99)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>4</td>
-<td>Tests.DashboardTest@61322f9d</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -125,28 +78,48 @@ function toggleAllBoxes() {
 <tr>
 <td title='Tests.LoginTest.empty()'><b>empty</b><br>Test class: Tests.LoginTest</td>
 <td></td>
-<td>0</td>
-<td>Tests.LoginTest@3c46e67a</td></tr>
+<td>1</td>
+<td>Tests.LoginTest@367ffa75</td></tr>
+<tr>
+<td title='Tests.DashboardTest.QuickLaunch_Assert()'><b>QuickLaunch_Assert</b><br>Test class: Tests.DashboardTest</td>
+<td></td>
+<td>6</td>
+<td>Tests.DashboardTest@2e377400</td></tr>
+<tr>
+<td title='Tests.PIMtest.Addemployee()'><b>Addemployee</b><br>Test class: Tests.PIMtest</td>
+<td></td>
+<td>26</td>
+<td>Tests.PIMtest@1757cd72</td></tr>
 <tr>
 <td title='Tests.LoginTest.ForgotPass()'><b>ForgotPass</b><br>Test class: Tests.LoginTest</td>
 <td></td>
-<td>2</td>
-<td>Tests.LoginTest@3c46e67a</td></tr>
-<tr>
-<td title='Tests.LoginTest.Invalid()'><b>Invalid</b><br>Test class: Tests.LoginTest</td>
-<td></td>
-<td>2</td>
-<td>Tests.LoginTest@3c46e67a</td></tr>
+<td>3</td>
+<td>Tests.LoginTest@367ffa75</td></tr>
 <tr>
 <td title='Tests.DashboardTest.Login()'><b>Login</b><br>Test class: Tests.DashboardTest</td>
 <td></td>
-<td>19</td>
-<td>Tests.DashboardTest@61322f9d</td></tr>
+<td>23</td>
+<td>Tests.DashboardTest@2e377400</td></tr>
+<tr>
+<td title='Tests.PIMtest.Addsupervisor()'><b>Addsupervisor</b><br>Test class: Tests.PIMtest</td>
+<td></td>
+<td>64</td>
+<td>Tests.PIMtest@1757cd72</td></tr>
+<tr>
+<td title='Tests.LoginTest.Invalid()'><b>Invalid</b><br>Test class: Tests.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>Tests.LoginTest@367ffa75</td></tr>
+<tr>
+<td title='Tests.PIMtest.search()'><b>search</b><br>Test class: Tests.PIMtest</td>
+<td></td>
+<td>28</td>
+<td>Tests.PIMtest@1757cd72</td></tr>
 <tr>
 <td title='Tests.LoginTest.Ltest()'><b>Ltest</b><br>Test class: Tests.LoginTest</td>
 <td></td>
-<td>4</td>
-<td>Tests.LoginTest@3c46e67a</td></tr>
+<td>6</td>
+<td>Tests.LoginTest@367ffa75</td></tr>
 </table><p>
 </body>
 </html>

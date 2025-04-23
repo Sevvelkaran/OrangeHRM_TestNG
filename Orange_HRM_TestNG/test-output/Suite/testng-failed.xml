@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Tests.DashboardTest">
+      <class name="Tests.PIMtest">
         <methods>
           <include name="End"/>
           <include name="setup"/>
-          <include name="QuickLaunch_Assert"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- Tests.DashboardTest -->
+      </class> <!-- Tests.PIMtest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

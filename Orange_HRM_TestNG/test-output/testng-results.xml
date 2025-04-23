@@ -1,74 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-22T22:16:46 IST" name="Default suite" finished-at="2025-04-22T22:17:34 IST" duration-ms="48038">
+  <suite started-at="2025-04-23T19:55:50 IST" name="Suite" finished-at="2025-04-23T20:01:23 IST" duration-ms="332609">
     <groups>
     </groups>
-    <test started-at="2025-04-22T22:16:46 IST" name="Default test" finished-at="2025-04-22T22:17:34 IST" duration-ms="48038">
+    <test started-at="2025-04-23T19:55:50 IST" name="Test" finished-at="2025-04-23T20:01:23 IST" duration-ms="332609">
       <class name="Tests.DashboardTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DashboardTest@1d296da]" started-at="2025-04-22T22:16:46 IST" name="setup" finished-at="2025-04-22T22:16:57 IST" duration-ms="10701" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DashboardTest@2e377400]" started-at="2025-04-23T19:57:17 IST" name="setup" finished-at="2025-04-23T19:57:31 IST" duration-ms="13793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Login()[pri:0, instance:Tests.DashboardTest@1d296da]" started-at="2025-04-22T22:16:57 IST" name="Login" finished-at="2025-04-22T22:17:19 IST" duration-ms="21778" status="PASS">
+        <test-method signature="Login()[pri:0, instance:Tests.DashboardTest@2e377400]" started-at="2025-04-23T19:57:31 IST" name="Login" finished-at="2025-04-23T19:57:54 IST" duration-ms="23394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="End()[pri:0, instance:Tests.DashboardTest@1d296da]" started-at="2025-04-22T22:17:19 IST" name="End" finished-at="2025-04-22T22:17:20 IST" duration-ms="1238" status="PASS">
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.DashboardTest@2e377400]" started-at="2025-04-23T19:57:54 IST" name="End" finished-at="2025-04-23T19:57:59 IST" duration-ms="4426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DashboardTest@1d296da]" started-at="2025-04-22T22:17:20 IST" name="setup" finished-at="2025-04-22T22:17:29 IST" duration-ms="8450" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DashboardTest@2e377400]" started-at="2025-04-23T19:57:59 IST" name="setup" finished-at="2025-04-23T19:58:16 IST" duration-ms="17513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="QuickLaunch_Assert()[pri:1, instance:Tests.DashboardTest@1d296da]" started-at="2025-04-22T22:17:29 IST" name="QuickLaunch_Assert" finished-at="2025-04-22T22:17:33 IST" duration-ms="4426" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Assign Leave expected:<Assign Leave> but was:<Quick Launch Assertion Failed for: Assign Leave>]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Assign Leave expected:<Assign Leave> but was:<Quick Launch Assertion Failed for: Assign Leave>
-at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
-at Tests.DashboardTest.QuickLaunch_Assert(DashboardTest.java:99)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="QuickLaunch_Assert()[pri:1, instance:Tests.DashboardTest@2e377400]" started-at="2025-04-23T19:58:16 IST" name="QuickLaunch_Assert" finished-at="2025-04-23T19:58:23 IST" duration-ms="6865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuickLaunch_Assert -->
-        <test-method is-config="true" signature="End()[pri:0, instance:Tests.DashboardTest@1d296da]" started-at="2025-04-22T22:17:33 IST" name="End" finished-at="2025-04-22T22:17:34 IST" duration-ms="1375" status="PASS">
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.DashboardTest@2e377400]" started-at="2025-04-23T19:58:23 IST" name="End" finished-at="2025-04-23T19:58:26 IST" duration-ms="2433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End -->
       </class> <!-- Tests.DashboardTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Tests.PIMtest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T19:58:26 IST" name="setup" finished-at="2025-04-23T19:58:41 IST" duration-ms="14899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Addemployee()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T19:58:41 IST" name="Addemployee" finished-at="2025-04-23T19:59:07 IST" duration-ms="26134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addemployee -->
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T19:59:07 IST" name="End" finished-at="2025-04-23T19:59:09 IST" duration-ms="2777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T19:59:09 IST" name="setup" finished-at="2025-04-23T19:59:25 IST" duration-ms="15786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Addsupervisor()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T19:59:25 IST" name="Addsupervisor" finished-at="2025-04-23T20:00:29 IST" duration-ms="64105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addsupervisor -->
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T20:00:29 IST" name="End" finished-at="2025-04-23T20:00:32 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T20:00:32 IST" name="setup" finished-at="2025-04-23T20:00:52 IST" duration-ms="19845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T20:00:52 IST" name="search" finished-at="2025-04-23T20:01:20 IST" duration-ms="28723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.PIMtest@1757cd72]" started-at="2025-04-23T20:01:20 IST" name="End" finished-at="2025-04-23T20:01:23 IST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- Tests.PIMtest -->
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:55:50 IST" name="setup" finished-at="2025-04-23T19:56:08 IST" duration-ms="17350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:08 IST" name="setupPage" finished-at="2025-04-23T19:56:08 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="Ltest()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:08 IST" name="Ltest" finished-at="2025-04-23T19:56:14 IST" duration-ms="6108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ltest -->
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:14 IST" name="End" finished-at="2025-04-23T19:56:17 IST" duration-ms="2886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:17 IST" name="setup" finished-at="2025-04-23T19:56:33 IST" duration-ms="15729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:33 IST" name="setupPage" finished-at="2025-04-23T19:56:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="Invalid()[pri:1, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:33 IST" name="Invalid" finished-at="2025-04-23T19:56:36 IST" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalid -->
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:36 IST" name="End" finished-at="2025-04-23T19:56:39 IST" duration-ms="2662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:39 IST" name="setup" finished-at="2025-04-23T19:56:53 IST" duration-ms="14407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:53 IST" name="setupPage" finished-at="2025-04-23T19:56:53 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="empty()[pri:2, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:53 IST" name="empty" finished-at="2025-04-23T19:56:55 IST" duration-ms="1666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empty -->
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:55 IST" name="End" finished-at="2025-04-23T19:56:57 IST" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:56:57 IST" name="setup" finished-at="2025-04-23T19:57:11 IST" duration-ms="13589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupPage()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:57:11 IST" name="setupPage" finished-at="2025-04-23T19:57:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPage -->
+        <test-method signature="ForgotPass()[pri:3, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:57:11 IST" name="ForgotPass" finished-at="2025-04-23T19:57:14 IST" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPass -->
+        <test-method is-config="true" signature="End()[pri:0, instance:Tests.LoginTest@367ffa75]" started-at="2025-04-23T19:57:14 IST" name="End" finished-at="2025-04-23T19:57:17 IST" duration-ms="2768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

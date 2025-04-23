@@ -1,0 +1,95 @@
+2025-04-22 21:59:21 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entred
+2025-04-22 21:59:21 [main] INFO  org.apache.logging.log4j.LogManager - Password Entred
+2025-04-22 21:59:23 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 21:59:34 [main] INFO  org.apache.logging.log4j.LogManager - Invalid UserName Entred
+2025-04-22 21:59:34 [main] INFO  org.apache.logging.log4j.LogManager - Invalid Password Entred
+2025-04-22 21:59:35 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 21:59:47 [main] INFO  org.apache.logging.log4j.LogManager - Empty UserName Entred
+2025-04-22 21:59:47 [main] INFO  org.apache.logging.log4j.LogManager - Empty Password Entred
+2025-04-22 21:59:47 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:00:02 [main] INFO  org.apache.logging.log4j.LogManager - Forgot Password Clicked
+2025-04-22 22:03:46 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:03:46 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:03:47 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:05:38 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:05:38 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:05:40 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:06:38 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:06:38 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:06:40 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:07:07 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:07:07 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:07:12 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:07:12 [main] INFO  org.apache.logging.log4j.LogManager - Assign Leave Asserted
+2025-04-22 22:07:12 [main] INFO  org.apache.logging.log4j.LogManager - Leave List Asserted
+2025-04-22 22:07:12 [main] INFO  org.apache.logging.log4j.LogManager - Timesheets Asserted
+2025-04-22 22:07:12 [main] INFO  org.apache.logging.log4j.LogManager - Apply Leave Asserted
+2025-04-22 22:07:12 [main] INFO  org.apache.logging.log4j.LogManager - My Leave Asserted
+2025-04-22 22:07:12 [main] INFO  org.apache.logging.log4j.LogManager - My Timesheet Asserted
+2025-04-22 22:08:18 [main] INFO  org.apache.logging.log4j.LogManager - Starting Login Test
+2025-04-22 22:08:18 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:08:19 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:08:19 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:08:27 [main] INFO  org.apache.logging.log4j.LogManager - Clock Button Clicked
+2025-04-22 22:08:39 [main] INFO  org.apache.logging.log4j.LogManager - Time Button Clicked
+2025-04-22 22:08:39 [main] INFO  org.apache.logging.log4j.LogManager - Arrow Button Clicked
+2025-04-22 22:08:40 [main] INFO  org.apache.logging.log4j.LogManager - Out Button Clicked
+2025-04-22 22:08:41 [main] INFO  org.apache.logging.log4j.LogManager - Dashboard Loaded Successfully
+2025-04-22 22:08:54 [main] INFO  org.apache.logging.log4j.LogManager - Starting QuickLaunch Assertion Test
+2025-04-22 22:08:55 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:08:56 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:08:56 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:09:01 [main] INFO  org.apache.logging.log4j.LogManager - Assign Leave Asserted
+2025-04-22 22:09:01 [main] INFO  org.apache.logging.log4j.LogManager - Leave List Asserted
+2025-04-22 22:09:01 [main] INFO  org.apache.logging.log4j.LogManager - Timesheets Asserted
+2025-04-22 22:09:01 [main] INFO  org.apache.logging.log4j.LogManager - Apply Leave Asserted
+2025-04-22 22:09:01 [main] INFO  org.apache.logging.log4j.LogManager - My Leave Asserted
+2025-04-22 22:09:01 [main] INFO  org.apache.logging.log4j.LogManager - My Timesheet Asserted
+2025-04-22 22:09:48 [main] INFO  org.apache.logging.log4j.LogManager - Starting QuickLaunch Assertion Test
+2025-04-22 22:09:49 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:09:49 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:09:50 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:09:55 [main] INFO  org.apache.logging.log4j.LogManager - Assign Leave Asserted
+2025-04-22 22:09:55 [main] INFO  org.apache.logging.log4j.LogManager - Leave List Asserted
+2025-04-22 22:09:55 [main] INFO  org.apache.logging.log4j.LogManager - Timesheets Asserted
+2025-04-22 22:09:55 [main] INFO  org.apache.logging.log4j.LogManager - Apply Leave Asserted
+2025-04-22 22:09:55 [main] INFO  org.apache.logging.log4j.LogManager - My Leave Asserted
+2025-04-22 22:09:55 [main] INFO  org.apache.logging.log4j.LogManager - My Timesheet Asserted
+2025-04-22 22:13:37 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entred
+2025-04-22 22:13:37 [main] INFO  org.apache.logging.log4j.LogManager - Password Entred
+2025-04-22 22:13:38 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:13:50 [main] INFO  org.apache.logging.log4j.LogManager - Invalid UserName Entred
+2025-04-22 22:13:50 [main] INFO  org.apache.logging.log4j.LogManager - Invalid Password Entred
+2025-04-22 22:13:52 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:14:02 [main] INFO  org.apache.logging.log4j.LogManager - Empty UserName Entred
+2025-04-22 22:14:02 [main] INFO  org.apache.logging.log4j.LogManager - Empty Password Entred
+2025-04-22 22:14:02 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:14:14 [main] INFO  org.apache.logging.log4j.LogManager - Forgot Password Clicked
+2025-04-22 22:14:27 [main] INFO  org.apache.logging.log4j.LogManager - Starting Login Test
+2025-04-22 22:14:28 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:14:28 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:14:30 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:14:33 [main] INFO  org.apache.logging.log4j.LogManager - Clock Button Clicked
+2025-04-22 22:14:45 [main] INFO  org.apache.logging.log4j.LogManager - Time Button Clicked
+2025-04-22 22:14:46 [main] INFO  org.apache.logging.log4j.LogManager - Arrow Button Clicked
+2025-04-22 22:14:46 [main] INFO  org.apache.logging.log4j.LogManager - Out Button Clicked
+2025-04-22 22:14:47 [main] INFO  org.apache.logging.log4j.LogManager - Dashboard Loaded Successfully
+2025-04-22 22:14:57 [main] INFO  org.apache.logging.log4j.LogManager - Starting QuickLaunch Assertion Test
+2025-04-22 22:14:58 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:14:58 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:15:00 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:15:02 [main] INFO  org.apache.logging.log4j.LogManager - Assign Leave Asserted
+2025-04-22 22:16:58 [main] INFO  org.apache.logging.log4j.LogManager - Starting Login Test
+2025-04-22 22:16:59 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:16:59 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:16:59 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:17:05 [main] INFO  org.apache.logging.log4j.LogManager - Clock Button Clicked
+2025-04-22 22:17:18 [main] INFO  org.apache.logging.log4j.LogManager - Time Button Clicked
+2025-04-22 22:17:18 [main] INFO  org.apache.logging.log4j.LogManager - Arrow Button Clicked
+2025-04-22 22:17:18 [main] INFO  org.apache.logging.log4j.LogManager - Out Button Clicked
+2025-04-22 22:17:19 [main] INFO  org.apache.logging.log4j.LogManager - Dashboard Loaded Successfully
+2025-04-22 22:17:29 [main] INFO  org.apache.logging.log4j.LogManager - Starting QuickLaunch Assertion Test
+2025-04-22 22:17:30 [main] INFO  org.apache.logging.log4j.LogManager - UserName Entered
+2025-04-22 22:17:30 [main] INFO  org.apache.logging.log4j.LogManager - Password Entered
+2025-04-22 22:17:32 [main] INFO  org.apache.logging.log4j.LogManager - Login Clicked
+2025-04-22 22:17:33 [main] INFO  org.apache.logging.log4j.LogManager - Assign Leave Asserted

@@ -6,6 +6,7 @@
       <class name="Tests.LoginTest"/>
       <class name="Tests.DashboardTest"/>
       <class name="Tests.PIMtest"></class>
+      <class name="Tests.Configtest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
